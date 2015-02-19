@@ -18,10 +18,6 @@ public class MainActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
     	Pushbots.sharedInstance().init(this);
-    	Pushbots.sharedInstance().setPushEnabled(true);
-
-   	Pushbots.sharedInstance().setAlias("amr");
-    	Log.e("REGID", Pushbots.sharedInstance().regID());
     	
 
 	}
